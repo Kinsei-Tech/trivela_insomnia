@@ -1,0 +1,22 @@
+_id: req_817a931f91ff4bc1af85241fa688db02
+type: Request
+parentId: fld_ce94806760604e22a73085511ab79dcb
+modified: 1667312032069
+created: 1667312032069
+url: "{{ _.baseURL }}/admin/owners/:id"
+name: admin/users/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1667311904386
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

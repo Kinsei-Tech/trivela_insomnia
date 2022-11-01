@@ -1,0 +1,26 @@
+_id: req_bcdc701fdac9466898b85ee7481dec1a
+type: Request
+parentId: fld_d5bad0767d7144889c48eb1c50169eba
+modified: 1667311353353
+created: 1667311314215
+url: "{{ _.baseURL }}/owners/:id"
+name: /owners/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667311210686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

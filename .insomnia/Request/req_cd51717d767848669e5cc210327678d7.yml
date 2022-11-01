@@ -1,0 +1,21 @@
+_id: req_cd51717d767848669e5cc210327678d7
+type: Request
+parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
+modified: 1667314960079
+created: 1667313323398
+url: "{{ _.baseURL }}/requests/:id"
+name: /requests/:teamId
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667313188120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_39d1ccadfbd04f24873e150f4beba2cd
+type: Request
+parentId: fld_41f34828e04848d781d6274aba0616cc
+modified: 1667319220212
+created: 1667310724728
+url: "{{ _.baseURL }}/teams/:id"
+name: /teams/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1661859466809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

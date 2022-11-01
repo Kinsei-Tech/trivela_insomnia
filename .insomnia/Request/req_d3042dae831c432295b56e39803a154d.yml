@@ -1,0 +1,22 @@
+_id: req_d3042dae831c432295b56e39803a154d
+type: Request
+parentId: fld_41f34828e04848d781d6274aba0616cc
+modified: 1667310823139
+created: 1667310769382
+url: "{{ _.baseURL }}/teams/:id"
+name: SOFT /teams/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1661859466734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

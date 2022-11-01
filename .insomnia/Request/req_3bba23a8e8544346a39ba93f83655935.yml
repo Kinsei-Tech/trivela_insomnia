@@ -1,0 +1,30 @@
+_id: req_3bba23a8e8544346a39ba93f83655935
+type: Request
+parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
+modified: 1667319407291
+created: 1667313222752
+url: "{{ _.baseURL }}/requests/:teamId"
+name: /requests/:teamId
+description: 'Há três status: "pending", "accepted" e "denied". POST sempre terá
+  status "pending", que poderá ser alterado no PATCH apenas pelo dono do time. '
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "pending"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667313222752
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_ad470308637f418dac715c21973deda6
+type: Request
+parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
+modified: 1667319445154
+created: 1667314684401
+url: "{{ _.baseURL }}/requests/:id"
+name: /requests/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "accepted"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667313188145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_192be30baeab4cd88a9b0b353b764884
+type: Request
+parentId: fld_fd87c8fafff84870b12acab150399029
+modified: 1667311074197
+created: 1667311025843
+url: "{{ _.baseURL }}/fields"
+name: /fields
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1667310911687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_0e5dc97d3ee643b2ba0f434a56723c9d
+type: Request
+parentId: fld_41f34828e04848d781d6274aba0616cc
+modified: 1667310826455
+created: 1667310793334
+url: "{{ _.baseURL }}/teams/:id"
+name: /teams/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1661859466684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

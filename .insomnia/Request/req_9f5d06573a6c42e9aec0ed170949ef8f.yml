@@ -1,0 +1,23 @@
+_id: req_9f5d06573a6c42e9aec0ed170949ef8f
+type: Request
+parentId: fld_9922aea66080438d90237a05070317b3
+modified: 1667311034072
+created: 1662306565491
+url: "{{ _.baseURL }}/users"
+name: /users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Implc3NpY2FAZW1haWwuY29tIiwiaWF0IjoxNjYyMzA2NjI1LCJleHAiOjE2NjIzMTAyMjUsInN1YiI6IjEifQ.UqWSHA8gihcOGSH32--8CdGyO5ZU06W2uV9vtjpEpVk
+metaSortKey: -1667211253226.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_39e3afd4c7c049f5b84a4a63a051228d
+type: Request
+parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
+modified: 1667313548940
+created: 1667313188170
+url: "{{ _.baseURL }}/requests"
+name: /requests/:teamId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1667313188170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_19521cfe3252435a85f31eed1d3e0aef
+type: Request
+parentId: fld_fd87c8fafff84870b12acab150399029
+modified: 1667311019291
+created: 1667310987823
+url: "{{ _.baseURL }}/fields/:id"
+name: /fields/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667310911662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

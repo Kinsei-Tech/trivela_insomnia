@@ -1,0 +1,21 @@
+_id: req_f615b07ea95140c99db4549d82c646b7
+type: Request
+parentId: fld_eaaba7efeed744c9846d94802b500e23
+modified: 1667311611842
+created: 1667311589709
+url: "{{ _.baseURL }}/admin/:id"
+name: SOFT /admin/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667311470895
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

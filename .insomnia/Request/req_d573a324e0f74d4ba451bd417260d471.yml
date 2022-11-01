@@ -1,0 +1,31 @@
+_id: req_d573a324e0f74d4ba451bd417260d471
+type: Request
+parentId: fld_eaaba7efeed744c9846d94802b500e23
+modified: 1667319916064
+created: 1667311471045
+url: "{{ _.baseURL }}/admin"
+name: /admin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Wigo Rossim",
+    	"email": "wigo@email.com",
+    	"password": 1234
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667311471045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

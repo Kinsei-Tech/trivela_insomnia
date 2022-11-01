@@ -1,0 +1,36 @@
+_id: req_53e64225985543a48efee839a7945e9b
+type: Request
+parentId: fld_fd87c8fafff84870b12acab150399029
+modified: 1667319880859
+created: 1667310911712
+url: "{{ _.baseURL }}/fields"
+name: /fields
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Quadra Tupã",
+    	"address": {
+    		"street": "Rua Hermam Tolêdo",
+    		"district": "São Pedro",
+    		"zipCode": "36037-280",
+    		"city": "Juiz de Fora",
+    		"state": "MG"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667310911712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_f81ca38b714f455b84ad9a22c04cc283
+type: Request
+parentId: fld_eaaba7efeed744c9846d94802b500e23
+modified: 1667311586289
+created: 1667311553737
+url: "{{ _.baseURL }}/admin/:id"
+name: /admin/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1667311470945
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
