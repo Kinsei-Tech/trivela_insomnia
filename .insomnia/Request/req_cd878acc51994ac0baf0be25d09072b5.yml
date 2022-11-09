@@ -1,10 +1,10 @@
 _id: req_cd878acc51994ac0baf0be25d09072b5
 type: Request
 parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
-modified: 1667318445605
+modified: 1668003454410
 created: 1667316220478
-url: "{{ _.baseURL }}/login"
-name: /login
+url: "{{ _.baseURL }}/users/login"
+name: /users/login
 description: 'Há três tipos: "administrator", "user" e "owner". Essa info deve
   ser passada para o token.'
 method: POST
@@ -12,16 +12,15 @@ body:
   mimeType: application/json
   text: |
     {
-    	"email": "regina@gmail.com",
-    	"password": "1234",
-    	"type": "administrator"
+    	"email": "lais.bomtempo.sm@gmail.com",
+    	"password": "1234"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1667316220478
+metaSortKey: -1668002354729
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

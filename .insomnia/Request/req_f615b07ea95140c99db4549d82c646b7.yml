@@ -1,16 +1,18 @@
 _id: req_f615b07ea95140c99db4549d82c646b7
 type: Request
 parentId: fld_eaaba7efeed744c9846d94802b500e23
-modified: 1667311611842
+modified: 1668004046950
 created: 1667311589709
-url: "{{ _.baseURL }}/admin/:id"
-name: SOFT /admin/:id
+url: "{{ _.baseURL }}/admin/deactivate/:id"
+name: SOFT /admin/deactivate/:id
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.tokeanAdm }}"
 metaSortKey: -1667311470895
 isPrivate: false
 settingStoreCookies: true

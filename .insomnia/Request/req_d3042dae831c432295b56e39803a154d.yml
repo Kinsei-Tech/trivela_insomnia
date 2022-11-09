@@ -1,10 +1,10 @@
 _id: req_d3042dae831c432295b56e39803a154d
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1667310823139
+modified: 1668003927306
 created: 1667310769382
-url: "{{ _.baseURL }}/teams/:id"
-name: SOFT /teams/:id
+url: "{{ _.baseURL }}/teams/deactivate/97de2f48-98e1-41e9-be40-ac59337198ad"
+name: SOFT /teams/deactivate/:id
 description: ""
 method: DELETE
 body: {}
@@ -12,6 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1661859466734
 isPrivate: false
 settingStoreCookies: true

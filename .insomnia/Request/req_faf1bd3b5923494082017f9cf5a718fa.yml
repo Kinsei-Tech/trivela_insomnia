@@ -1,10 +1,10 @@
-_id: req_192be30baeab4cd88a9b0b353b764884
+_id: req_faf1bd3b5923494082017f9cf5a718fa
 type: Request
-parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003791109
-created: 1667311025843
-url: "{{ _.baseURL }}/fields/owners"
-name: /fields/owners
+parentId: fld_d5bad0767d7144889c48eb1c50169eba
+modified: 1668002700551
+created: 1668002662721
+url: "{{ _.baseURL }}/owners"
+name: /owners
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.tokenOwner }}"
-metaSortKey: -1667310911687
+  token: "{{ _.token }}"
+metaSortKey: -1667311210711
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

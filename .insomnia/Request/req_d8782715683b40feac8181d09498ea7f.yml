@@ -1,17 +1,17 @@
-_id: req_39d1ccadfbd04f24873e150f4beba2cd
+_id: req_d8782715683b40feac8181d09498ea7f
 type: Request
-parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668003936757
-created: 1667310724728
-url: "{{ _.baseURL }}/teams/update/6ac5fa08-d34a-40f2-8895-f2d1f6e670d8"
-name: /teams/update/:id
-description: ""
+parentId: fld_a6c11c7777de4fe68541187e91c23e17
+modified: 1668003657268
+created: 1667898654311
+url: "{{ _.baseURL }}/participants/update/:id/:userId"
+name: /participants/update/:id/:userId
+description: id = id do time!
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"city": "Rio Pomba"
+    	"position": 4
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.tokenUser }}"
-metaSortKey: -1661859466809
+metaSortKey: -1667898654311
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,10 @@
 _id: req_0e157ea4d547493287078caa318121e2
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1667311126151
+modified: 1668003817647
 created: 1667311102682
-url: "{{ _.baseURL }}/fields/:id"
-name: /fields/:id
+url: "{{ _.baseURL }}/fields/delete/:id"
+name: /fields/delete/:id
 description: ""
 method: DELETE
 body: {}
@@ -12,6 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
+  token: "{{ _.tokenOwner }}"
 metaSortKey: -1667310911562
 isPrivate: false
 settingStoreCookies: true

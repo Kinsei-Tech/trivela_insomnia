@@ -1,16 +1,18 @@
 _id: req_2bb8420dc5c44ba983c5b05f777c111b
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1667311099632
+modified: 1668003812831
 created: 1667311077593
-url: "{{ _.baseURL }}/fields/:id"
-name: SOFT /fields/:id
+url: "{{ _.baseURL }}/fields/deactivate/:id"
+name: SOFT /fields/deactivate/:id
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.tokenOwner }}"
 metaSortKey: -1667310911612
 isPrivate: false
 settingStoreCookies: true

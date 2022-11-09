@@ -1,27 +1,25 @@
-_id: req_d573a324e0f74d4ba451bd417260d471
+_id: req_cc7f674d77344398b875a92a9fa944f5
 type: Request
-parentId: fld_eaaba7efeed744c9846d94802b500e23
-modified: 1667657387879
-created: 1667311471045
-url: "{{ _.baseURL }}/admin"
-name: /admin
+parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
+modified: 1668003455398
+created: 1668003070583
+url: "{{ _.baseURL }}/adm/login"
+name: /adm/login
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Wigo Rossim",
-    	"email": "wigo@email.com",
-    	"password": 1234
+    	"email": "laisBomtempo@email.com",
+    	"password": "1234"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication:
-  type: bearer
-metaSortKey: -1667311471045
+authentication: {}
+metaSortKey: -1667316220428
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

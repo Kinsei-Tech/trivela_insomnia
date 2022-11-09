@@ -1,10 +1,10 @@
 _id: req_f29765c6838e433aba04356b9e78d7e7
 type: Request
 parentId: fld_09987d7d16264265b0c2944a9088f183
-modified: 1667312085026
+modified: 1668004079715
 created: 1667312085026
-url: "{{ _.baseURL }}/admin/owners/:id"
-name: admin/teams/:id
+url: "{{ _.baseURL }}/admin/teams/delete/:id"
+name: admin/teams/delete/:id
 description: ""
 method: DELETE
 body: {}
@@ -12,6 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
+  token: "{{ _.tokeanAdm }}"
 metaSortKey: -1667312033050.5
 isPrivate: false
 settingStoreCookies: true

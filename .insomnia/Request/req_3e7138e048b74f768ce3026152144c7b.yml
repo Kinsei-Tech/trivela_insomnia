@@ -1,10 +1,10 @@
 _id: req_3e7138e048b74f768ce3026152144c7b
 type: Request
 parentId: fld_300df0767bfc43a4935491a522579844
-modified: 1667311941341
+modified: 1668004123494
 created: 1667311937368
-url: "{{ _.baseURL }}/admin/fields/:id"
-name: /admin/fields/:id
+url: "{{ _.baseURL }}/admin/fields/delete:id"
+name: /admin/fields/delete/:id
 description: ""
 method: DELETE
 body: {}
@@ -12,6 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
+  token: "{{ _.tokeanAdm }}"
 metaSortKey: -1667311735328
 isPrivate: false
 settingStoreCookies: true

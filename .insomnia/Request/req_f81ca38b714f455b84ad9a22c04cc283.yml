@@ -1,7 +1,7 @@
 _id: req_f81ca38b714f455b84ad9a22c04cc283
 type: Request
 parentId: fld_eaaba7efeed744c9846d94802b500e23
-modified: 1667311586289
+modified: 1668004047672
 created: 1667311553737
 url: "{{ _.baseURL }}/admin/:id"
 name: /admin/:id
@@ -16,6 +16,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
+  token: "{{ _.tokeanAdm }}"
 metaSortKey: -1667311470945
 isPrivate: false
 settingStoreCookies: true

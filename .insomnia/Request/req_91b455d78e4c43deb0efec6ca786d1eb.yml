@@ -1,19 +1,19 @@
-_id: req_9f5d06573a6c42e9aec0ed170949ef8f
+_id: req_91b455d78e4c43deb0efec6ca786d1eb
 type: Request
-parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003447996
-created: 1662306565491
-url: "{{ _.baseURL }}/users"
-name: /users
-description: ""
-method: GET
+parentId: fld_a6c11c7777de4fe68541187e91c23e17
+modified: 1668003671872
+created: 1668002494734
+url: "{{ _.baseURL }}/deactivate/:id"
+name: /participants/deactivate/:id/:userId
+description: id = id do time!
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.tokenUser }}"
-metaSortKey: -1667211253226.5
+metaSortKey: -1667898654286
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

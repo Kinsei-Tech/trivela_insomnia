@@ -1,10 +1,10 @@
-_id: req_192be30baeab4cd88a9b0b353b764884
+_id: req_4cd46f173e754064a3629a311ff62289
 type: Request
-parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003791109
-created: 1667311025843
-url: "{{ _.baseURL }}/fields/owners"
-name: /fields/owners
+parentId: fld_41f34828e04848d781d6274aba0616cc
+modified: 1668003725004
+created: 1667900974295
+url: "{{ _.baseURL }}/teams/7dd7c124-f3bf-43bf-91e8-af590da73c34"
+name: /teams/:id
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.tokenOwner }}"
-metaSortKey: -1667310911687
+  token: "{{ _.tokenUser }}"
+metaSortKey: -1661859466815.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

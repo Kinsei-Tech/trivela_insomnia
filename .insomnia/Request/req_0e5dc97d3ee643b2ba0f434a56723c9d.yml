@@ -1,10 +1,10 @@
 _id: req_0e5dc97d3ee643b2ba0f434a56723c9d
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1667310826455
+modified: 1668003930981
 created: 1667310793334
-url: "{{ _.baseURL }}/teams/:id"
-name: /teams/:id
+url: "{{ _.baseURL }}/teams/delete/6ac5fa08-d34a-40f2-8895-f2d1f6e670d8"
+name: /teams/delete/:id
 description: ""
 method: DELETE
 body: {}
@@ -12,6 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1661859466684
 isPrivate: false
 settingStoreCookies: true

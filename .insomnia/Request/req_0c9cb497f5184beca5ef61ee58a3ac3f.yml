@@ -1,10 +1,10 @@
 _id: req_0c9cb497f5184beca5ef61ee58a3ac3f
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1667318947110
+modified: 1668003704418
 created: 1661899827581
-url: "{{ _.baseURL }}/users/2"
-name: /users/:id
+url: "{{ _.baseURL }}/users/:id"
+name: /users/update/:id
 description: ""
 method: PATCH
 body:
@@ -17,7 +17,7 @@ headers:
     id: pair_1413607754fd4be3b17f1381b044cedd
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJvbXRlbXBvQGVtYWlsLmNvbSIsImlhdCI6MTY2MjY0MzI0MywiZXhwIjoxNjYyNjQ2ODQzLCJzdWIiOiIyIn0.yiOkydpbwP7F96symDufeHjW7X33lrdD8wt0_eaC-3w
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1667211253214
 isPrivate: false
 settingStoreCookies: true

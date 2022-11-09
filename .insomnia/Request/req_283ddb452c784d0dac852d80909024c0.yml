@@ -1,10 +1,10 @@
 _id: req_283ddb452c784d0dac852d80909024c0
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1667319871938
+modified: 1668003450833
 created: 1667211253239
-url: "{{ _.baseURL1 }}/users"
-name: /users
+url: "{{ _.baseURL }}/users/create"
+name: /users/create
 description: "Coloquei todas as posições no exemplo de post para facilitar a
   criação do doc. Caso tenha apagado: left wing, right wing, target, fixed e
   goalkeeper. "
@@ -13,20 +13,22 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"name": "Laís Bomtempo",
-    	"email": "lais.bomtempo.sm@gmail.com",
+    	"name": "Daniel Bomtempo",
+    	"email": "daniel.bomtempo.sm@gmail.com",
     	"password": "1234",
-    	"isActive": true,
     	"age": 26,
-    	"height": 1.65,
+    	"height": 165,
     	"weight": 60,
     	"telephone": "(32)9 9974-7830",
     	"isExercising": true,
-    	"positions": ["target", "left wing", "right wing", "fixed", "goalkeeper"],
-    	"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
-    	"socialNetworks": {
-    		"linkedIn": "https://www.linkedin.com/in/lais-silveira-martins/"
+    	"position": {
+    		"target": true,
+    		"goalkeeper": false,
+    		"leftwing": true,
+    		"rightwing": true,
+    		"fixed": false
     	},
+    	"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
     	"address": {
     		"street": "Rua Pe. Frederico",
     		"district": "Santa Catarina",

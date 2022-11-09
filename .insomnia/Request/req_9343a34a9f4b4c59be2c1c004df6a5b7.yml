@@ -1,27 +1,30 @@
 _id: req_9343a34a9f4b4c59be2c1c004df6a5b7
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1667319562636
+modified: 1668003920841
 created: 1661859466834
-url: "{{ _.baseURL }}/teams"
-name: /teams
+url: "{{ _.baseURL }}/teams/create"
+name: /teams/create
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: >-2
      {
-          "name": "Meia Boca",
+          "name": "Futsal para emos",
     	 	  "description": "Busco pessoas para completar meu time de futsal aos sábados depois das 17h ",
           "state": "Minas Gerais-MG",
           "city": "Juiz de Fora",
-    	    "positionsSearchedFor": ["pivô", "ala direita", "fixo", "ala esquerda"],
-    			"participantsId": [],
           "maxWeight": 100,
           "maxAge": 40,
-          "userId": "uuid",
-    	 		"fieldId": "uuid"
-        }
+    	 		"positions": {
+    				"target": true,
+    				"goalkeeper": false,
+    				"leftwing": true,
+    				"rightwing": false,
+    				"fixed": true
+    			}
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -29,7 +32,7 @@ headers:
     id: pair_d7ecd03d1a194f8a9c3fec6367221a3f
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJvbXRlbXBvQGVtYWlsLmNvbSIsImlhdCI6MTY2MjY0MzI0MywiZXhwIjoxNjYyNjQ2ODQzLCJzdWIiOiIyIn0.yiOkydpbwP7F96symDufeHjW7X33lrdD8wt0_eaC-3w
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1661859466834
 isPrivate: false
 settingStoreCookies: true

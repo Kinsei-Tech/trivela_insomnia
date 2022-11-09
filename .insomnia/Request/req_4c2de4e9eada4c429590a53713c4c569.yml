@@ -1,7 +1,7 @@
 _id: req_4c2de4e9eada4c429590a53713c4c569
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1667311037149
+modified: 1668003720205
 created: 1661859441189
 url: "{{ _.baseURL }}/teams"
 name: /teams
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1661859466821.5
 isPrivate: false
 settingStoreCookies: true

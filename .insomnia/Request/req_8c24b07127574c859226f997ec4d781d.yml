@@ -1,11 +1,11 @@
-_id: req_9f5d06573a6c42e9aec0ed170949ef8f
+_id: req_8c24b07127574c859226f997ec4d781d
 type: Request
-parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003447996
-created: 1662306565491
-url: "{{ _.baseURL }}/users"
-name: /users
-description: ""
+parentId: fld_a6c11c7777de4fe68541187e91c23e17
+modified: 1668003658593
+created: 1667898176070
+url: "{{ _.baseURL }}/participants/team/7dd7c124-f3bf-43bf-91e8-af590da73c34"
+name: /participants/team/:id
+description: id = id do time!
 method: GET
 body: {}
 parameters: []
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.tokenUser }}"
-metaSortKey: -1667211253226.5
+metaSortKey: -1667898654336
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
