@@ -1,18 +1,41 @@
 _id: req_cd878acc51994ac0baf0be25d09072b5
 type: Request
 parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
-modified: 1668003454410
+modified: 1668020248096
 created: 1667316220478
 url: "{{ _.baseURL }}/users/login"
 name: /users/login
-description: 'Há três tipos: "administrator", "user" e "owner". Essa info deve
-  ser passada para o token.'
+description: >+
+  ## POST /users/login
+
+  ### Rota de login do usuário
+
+
+  - email - deve ser uma string, campo obrigatório
+
+  - password - deve ser uma string, campo obrigatório
+
+  - #### Deve realizar o login de um usuario cadastrado
+
+  - #### Deve apresentar um login e um email válido
+
+
+  ## Retorno experado
+
+  #### **Status 200**
+
+  ```json
+
+  {
+  	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbC5ib210ZW1wby5zbUBnbWFpbC5jb20iLCJpYXQiOjE2NjgwMTQ2NTcsImV4cCI6MTY2ODEwMTA1Nywic3ViIjoiMTc5MjRlODEtNWEwYy00Mjc0LWJkNDQtMDEzNzRlNDUxODc3In0._5ueH_dloxZvhbfOwOGK9jIeSzfgSqxN4qJQSkFs-Nc"
+  }
+
 method: POST
 body:
   mimeType: application/json
   text: |
     {
-    	"email": "lais.bomtempo.sm@gmail.com",
+    	"email": "daniel.bomtempo.sm@gmail.com",
     	"password": "1234"
     }
 parameters: []

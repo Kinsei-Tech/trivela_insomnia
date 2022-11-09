@@ -1,11 +1,26 @@
 _id: req_b9696cc9ed7b410ea00b7b2d84654b72
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003445030
+modified: 1668025400834
 created: 1667310487353
 url: "{{ _.baseURL }}/users/deactivate/:id"
 name: SOFT /users/deactivate/:id
-description: ""
+description: >
+  ## SOFTDELETE/
+
+  #### users/deactivate/:id
+
+
+  - #### Deve ser capaz de realizar a alteração do chave isActive de true para false
+
+  - #### Deve apresentar um token de autenticação
+
+  - #### Precisa de um id válido
+
+
+  ## Resposta Esperada
+
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

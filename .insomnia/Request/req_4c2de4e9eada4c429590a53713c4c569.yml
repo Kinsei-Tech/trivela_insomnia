@@ -1,11 +1,304 @@
 _id: req_4c2de4e9eada4c429590a53713c4c569
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668003720205
+modified: 1668021932023
 created: 1661859441189
 url: "{{ _.baseURL }}/teams"
 name: /teams
-description: ""
+description: "## GET /teams
+
+  - #### Deve retornar uma lista com todos os times cadastrados
+
+  - #### Esta rota precisa de um token de autenticação
+
+
+  ## Resultado Esperado
+
+  \t
+
+  \t[
+
+  \t{
+
+  \t\t\"isActive\": true,
+
+  \t\t\"id\": \"93c6cfcc-6fd4-4b45-a570-53e58952e77f\",
+
+  \t\t\"name\": \"Futsal para emos\",
+
+  \t\t\"description\": \"Busco pessoas para completar meu time de futsal aos
+  sábados depois das 17h \",
+
+  \t\t\"state\": \"Minas Gerais-MG\",
+
+  \t\t\"city\": \"Juiz de Fora\",
+
+  \t\t\"maxWeight\": 100,
+
+  \t\t\"maxAge\": 40,
+
+  \t\t\"createdAt\": \"2022-11-09T19:10:45.372Z\",
+
+  \t\t\"updatedAt\": \"2022-11-09T19:10:45.372Z\",
+
+  \t\t\"user\": {
+
+  \t\t\t\"id\": \"17924e81-5a0c-4274-bd44-01374e451877\",
+
+  \t\t\t\"name\": \"Arlindo Dantras\",
+
+  \t\t\t\"email\": \"daniel.bomtempo.sm@gmail.com\",
+
+  \t\t\t\"password\":
+  \"$2a$10$ZIss1KJaW8l8oynm9sc2WuW6BJgRSKkFQL8ZTgBMGDfhpnHqLR1JK\",
+
+  \t\t\t\"isActive\": true,
+
+  \t\t\t\"createdAt\": \"2022-11-09T17:15:48.568Z\",
+
+  \t\t\t\"updatedAt\": \"2022-11-09T18:35:51.943Z\",
+
+  \t\t\t\"age\": 26,
+
+  \t\t\t\"height\": 165,
+
+  \t\t\t\"weight\": 60,
+
+  \t\t\t\"telephone\": \"(32)9 9974-7830\",
+
+  \t\t\t\"isExercising\": true,
+
+  \t\t\t\"urlImg\":
+  \"https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg\",
+
+  \t\t\t\"socialNetwork\": {
+
+  \t\t\t\t\"id\": \"9a2e0eb4-0f62-48a8-83af-c8651fa7aac5\",
+
+  \t\t\t\t\"linkedin\": null,
+
+  \t\t\t\t\"whatsApp\": null,
+
+  \t\t\t\t\"facebook\": \"facebook@umlinkai.com\",
+
+  \t\t\t\t\"tiktok\": null,
+
+  \t\t\t\t\"instagram\": null
+
+  \t\t\t},
+
+  \t\t\t\"address\": {
+
+  \t\t\t\t\"id\": \"5ad53eec-60bc-448c-941c-6f3a90df5955\",
+
+  \t\t\t\t\"street\": \"Rua Pe. Frederico\",
+
+  \t\t\t\t\"district\": \"Santa Catarina\",
+
+  \t\t\t\t\"zipCode\": \"36035-150\",
+
+  \t\t\t\t\"number\": \"48\",
+
+  \t\t\t\t\"complement\": \"apart. 503\",
+
+  \t\t\t\t\"city\": \"Vitória\",
+
+  \t\t\t\t\"state\": \"MG\"
+
+  \t\t\t},
+
+  \t\t\t\"positions\": {
+
+  \t\t\t\t\"id\": \"22b9657f-7eb6-433c-b4ae-28afa468afc0\",
+
+  \t\t\t\t\"createdAt\": \"2022-11-09T17:15:47.839Z\",
+
+  \t\t\t\t\"updatedAt\": \"2022-11-09T18:35:51.848Z\",
+
+  \t\t\t\t\"target\": true,
+
+  \t\t\t\t\"goalkeeper\": false,
+
+  \t\t\t\t\"leftwing\": true,
+
+  \t\t\t\t\"rightwing\": true,
+
+  \t\t\t\t\"fixed\": false
+
+  \t\t\t},
+
+  \t\t\t\"request\": []
+
+  \t\t},
+
+  \t\t\"fields\": [],
+
+  \t\t\"positions\": {
+
+  \t\t\t\"id\": \"d3575034-622f-40a1-8f9e-7f30486b6b61\",
+
+  \t\t\t\"createdAt\": \"2022-11-09T19:10:45.103Z\",
+
+  \t\t\t\"updatedAt\": \"2022-11-09T19:10:45.103Z\",
+
+  \t\t\t\"target\": true,
+
+  \t\t\t\"goalkeeper\": false,
+
+  \t\t\t\"leftwing\": true,
+
+  \t\t\t\"rightwing\": false,
+
+  \t\t\t\"fixed\": true
+
+  \t\t},
+
+  \t\t\"participants\": []
+
+  \t},
+
+  \t{
+
+  \t\t\"isActive\": true,
+
+  \t\t\"id\": \"5305cea3-caf2-461d-a22f-a3d1c1ff7dc3\",
+
+  \t\t\"name\": \"Os Bolas Murchas\",
+
+  \t\t\"description\": \"Busco pessoas para completar meu time de futsal aos
+  sábados depois das 17h \",
+
+  \t\t\"state\": \"Minas Gerais-MG\",
+
+  \t\t\"city\": \"Juiz de Fora\",
+
+  \t\t\"maxWeight\": 100,
+
+  \t\t\"maxAge\": 40,
+
+  \t\t\"createdAt\": \"2022-11-09T19:22:02.934Z\",
+
+  \t\t\"updatedAt\": \"2022-11-09T19:22:02.934Z\",
+
+  \t\t\"user\": {
+
+  \t\t\t\"id\": \"17924e81-5a0c-4274-bd44-01374e451877\",
+
+  \t\t\t\"name\": \"Arlindo Dantras\",
+
+  \t\t\t\"email\": \"daniel.bomtempo.sm@gmail.com\",
+
+  \t\t\t\"password\":
+  \"$2a$10$ZIss1KJaW8l8oynm9sc2WuW6BJgRSKkFQL8ZTgBMGDfhpnHqLR1JK\",
+
+  \t\t\t\"isActive\": true,
+
+  \t\t\t\"createdAt\": \"2022-11-09T17:15:48.568Z\",
+
+  \t\t\t\"updatedAt\": \"2022-11-09T18:35:51.943Z\",
+
+  \t\t\t\"age\": 26,
+
+  \t\t\t\"height\": 165,
+
+  \t\t\t\"weight\": 60,
+
+  \t\t\t\"telephone\": \"(32)9 9974-7830\",
+
+  \t\t\t\"isExercising\": true,
+
+  \t\t\t\"urlImg\":
+  \"https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg\",
+
+  \t\t\t\"socialNetwork\": {
+
+  \t\t\t\t\"id\": \"9a2e0eb4-0f62-48a8-83af-c8651fa7aac5\",
+
+  \t\t\t\t\"linkedin\": null,
+
+  \t\t\t\t\"whatsApp\": null,
+
+  \t\t\t\t\"facebook\": \"facebook@umlinkai.com\",
+
+  \t\t\t\t\"tiktok\": null,
+
+  \t\t\t\t\"instagram\": null
+
+  \t\t\t},
+
+  \t\t\t\"address\": {
+
+  \t\t\t\t\"id\": \"5ad53eec-60bc-448c-941c-6f3a90df5955\",
+
+  \t\t\t\t\"street\": \"Rua Pe. Frederico\",
+
+  \t\t\t\t\"district\": \"Santa Catarina\",
+
+  \t\t\t\t\"zipCode\": \"36035-150\",
+
+  \t\t\t\t\"number\": \"48\",
+
+  \t\t\t\t\"complement\": \"apart. 503\",
+
+  \t\t\t\t\"city\": \"Vitória\",
+
+  \t\t\t\t\"state\": \"MG\"
+
+  \t\t\t},
+
+  \t\t\t\"positions\": {
+
+  \t\t\t\t\"id\": \"22b9657f-7eb6-433c-b4ae-28afa468afc0\",
+
+  \t\t\t\t\"createdAt\": \"2022-11-09T17:15:47.839Z\",
+
+  \t\t\t\t\"updatedAt\": \"2022-11-09T18:35:51.848Z\",
+
+  \t\t\t\t\"target\": true,
+
+  \t\t\t\t\"goalkeeper\": false,
+
+  \t\t\t\t\"leftwing\": true,
+
+  \t\t\t\t\"rightwing\": true,
+
+  \t\t\t\t\"fixed\": false
+
+  \t\t\t},
+
+  \t\t\t\"request\": []
+
+  \t\t},
+
+  \t\t\"fields\": [],
+
+  \t\t\"positions\": {
+
+  \t\t\t\"id\": \"90833893-e48c-4910-906d-19b75ea7824d\",
+
+  \t\t\t\"createdAt\": \"2022-11-09T19:22:02.846Z\",
+
+  \t\t\t\"updatedAt\": \"2022-11-09T19:22:02.846Z\",
+
+  \t\t\t\"target\": true,
+
+  \t\t\t\"goalkeeper\": false,
+
+  \t\t\t\"leftwing\": false,
+
+  \t\t\t\"rightwing\": false,
+
+  \t\t\t\"fixed\": false
+
+  \t\t},
+
+  \t\t\"participants\": []
+
+  \t}
+
+  ]
+
+  \t"
 method: GET
 body: {}
 parameters: []

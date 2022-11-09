@@ -1,11 +1,94 @@
 _id: req_4cd46f173e754064a3629a311ff62289
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668003725004
+modified: 1668022431568
 created: 1667900974295
-url: "{{ _.baseURL }}/teams/7dd7c124-f3bf-43bf-91e8-af590da73c34"
+url: "{{ _.baseURL }}/teams/5305cea3-caf2-461d-a22f-a3d1c1ff7dc3"
 name: /teams/:id
-description: ""
+description: >+
+  ## POST
+
+  ### /teams/:id
+
+
+  - #### Deve retornar o time pelo id
+
+  - #### Deve apresentar um token de autenticação
+
+
+  ## Resultado Esperado
+
+  ```json
+
+  {
+  	"isActive": true,
+  	"id": "5305cea3-caf2-461d-a22f-a3d1c1ff7dc3",
+  	"name": "Os Bolas Murchas",
+  	"description": "Busco pessoas para completar meu time de futsal aos sábados depois das 17h ",
+  	"state": "Minas Gerais-MG",
+  	"city": "Juiz de Fora",
+  	"maxWeight": 100,
+  	"maxAge": 40,
+  	"createdAt": "2022-11-09T19:22:02.934Z",
+  	"updatedAt": "2022-11-09T19:22:02.934Z",
+  	"user": {
+  		"id": "17924e81-5a0c-4274-bd44-01374e451877",
+  		"name": "Arlindo Dantras",
+  		"email": "daniel.bomtempo.sm@gmail.com",
+  		"password": "$2a$10$ZIss1KJaW8l8oynm9sc2WuW6BJgRSKkFQL8ZTgBMGDfhpnHqLR1JK",
+  		"isActive": true,
+  		"createdAt": "2022-11-09T17:15:48.568Z",
+  		"updatedAt": "2022-11-09T18:35:51.943Z",
+  		"age": 26,
+  		"height": 165,
+  		"weight": 60,
+  		"telephone": "(32)9 9974-7830",
+  		"isExercising": true,
+  		"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
+  		"socialNetwork": {
+  			"id": "9a2e0eb4-0f62-48a8-83af-c8651fa7aac5",
+  			"linkedin": null,
+  			"whatsApp": null,
+  			"facebook": "facebook@umlinkai.com",
+  			"tiktok": null,
+  			"instagram": null
+  		},
+  		"address": {
+  			"id": "5ad53eec-60bc-448c-941c-6f3a90df5955",
+  			"street": "Rua Pe. Frederico",
+  			"district": "Santa Catarina",
+  			"zipCode": "36035-150",
+  			"number": "48",
+  			"complement": "apart. 503",
+  			"city": "Vitória",
+  			"state": "MG"
+  		},
+  		"positions": {
+  			"id": "22b9657f-7eb6-433c-b4ae-28afa468afc0",
+  			"createdAt": "2022-11-09T17:15:47.839Z",
+  			"updatedAt": "2022-11-09T18:35:51.848Z",
+  			"target": true,
+  			"goalkeeper": false,
+  			"leftwing": true,
+  			"rightwing": true,
+  			"fixed": false
+  		},
+  		"request": []
+  	},
+  	"fields": [],
+  	"positions": {
+  		"id": "90833893-e48c-4910-906d-19b75ea7824d",
+  		"createdAt": "2022-11-09T19:22:02.846Z",
+  		"updatedAt": "2022-11-09T19:22:02.846Z",
+  		"target": true,
+  		"goalkeeper": false,
+  		"leftwing": false,
+  		"rightwing": false,
+  		"fixed": false
+  	},
+  	"participants": []
+  }
+
 method: GET
 body: {}
 parameters: []

@@ -1,18 +1,44 @@
 _id: req_9daab2b1902640e0a38ff9496f6c2337
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668002964780
+modified: 1668025580996
 created: 1667311210736
 url: "{{ _.baseURL }}/owners"
 name: /owners
-description: ""
+description: |-
+  ### POST /owners/create
+  ### Rota para criação de um donos de quadra/clube
+
+  - name - Deve ser uma string, campo obrigatório;
+  - email - Deve ser uma string, campo obrigatório;
+  - password - Deve ser uma string, campo obrigatório;
+
+  ### Exemplo de requisição
+
+  	{
+  	"name": "Daniel Bomtempo",
+  	"email": "daniel.bomtempo.sm@gmail.com",
+  	"password": "1234"
+  	}
+
+  ## Retorno esperado 
+  #### **Status 201 Created**
+
+  	{
+  	"name": "Laís Bomtempo",
+  	"email": "laissm@live.com",
+  	"createdAt": "2022-11-09T20:04:31.065Z",
+  	"updatedAt": "2022-11-09T20:04:31.065Z",
+  	"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  	"isActive": true
+  	}
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Laís Bomtempo",
-    	"email": "laissm@live.com",
+    	"name": "Mario Alberto",
+    	"email": "marioalberto@live.com",
     	"password": "1234"
     }
 parameters: []

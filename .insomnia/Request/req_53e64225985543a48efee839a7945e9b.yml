@@ -1,19 +1,72 @@
 _id: req_53e64225985543a48efee839a7945e9b
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003796177
+modified: 1668026759355
 created: 1667310911712
 url: "{{ _.baseURL }}/fields"
 name: /fields
-description: ""
+description: >-
+  ### POST /fields
+
+  ### Rota para criação de uma quadra
+
+
+  - name - Deve ser uma string, campo obrigatório;
+
+  - address - Deve ser um objeto contendo as chaves street, district, zipCode, city e state todas com valores são strings, todos os campos são obrigatórios;
+
+
+  ### Exemplo de requisição
+
+  	{
+  	"name": "Quadra Tupã",
+  	"address": {
+  		"street": "Rua Hermam Tolêdo",
+  		"district": "São Pedro",
+  		"zipCode": "36037-280",
+  		"city": "Juiz de Fora",
+  		"state": "MG"
+  	}
+  	}
+
+  ## Retorno esperado 
+
+  #### **Status 201 Created**
+
+  	{
+  	"isActive": true,
+  	"name": "Quadra Tupã",
+  	"owner": {
+  		"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  		"name": "Flavim du Pneu",
+  		"createdAt": "2022-11-09T20:04:31.065Z",
+  		"updatedAt": "2022-11-09T20:18:13.651Z",
+  		"email": "laissm@live.com",
+  		"isActive": true,
+  		"password": "$2a$10$nyVq/eRXBJKC08NiFtaLGeETxkXx0qu0qeQ6ykGbmMx1L3JRSCck."
+  	},
+  	"address": {
+  		"id": "c2ec72bc-4d2e-4b7c-8e66-ec51c6b3febf",
+  		"street": "Rua Hermam Tolêdo",
+  		"district": "São Pedro",
+  		"zipCode": "36037-280",
+  		"number": null,
+  		"complement": null,
+  		"city": "Juiz de Fora",
+  		"state": "MG"
+  	},
+  	"createdAt": "2022-11-09T20:24:16.874Z",
+  	"updatedAt": "2022-11-09T20:24:16.874Z",
+  	"id": "13aef617-9b08-438b-aa65-69077532b788"
+  	}
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Quadra Tupã",
+    	"name": "Campo Podi",
     	"address": {
-    		"street": "Rua Hermam Tolêdo",
+    		"street": "Rua Uma Rua",
     		"district": "São Pedro",
     		"zipCode": "36037-280",
     		"city": "Juiz de Fora",

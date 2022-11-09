@@ -1,11 +1,20 @@
 _id: req_89a99349732a43bdb0dbf6bc75385330
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668002699988
+modified: 1668026855769
 created: 1667311385587
 url: "{{ _.baseURL }}/owners/:id"
 name: /owners/:id
-description: ""
+description: |-
+  ## /DELETE
+  #### owners/:id
+
+  - #### Deve ser capaz de realizar a deleção do owner do banco de dados
+  - #### Deve apresentar um token de autenticação
+  - #### Precisa de um id válido
+
+  ## Resposta Esperada
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

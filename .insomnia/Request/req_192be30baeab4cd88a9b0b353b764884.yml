@@ -1,11 +1,50 @@
 _id: req_192be30baeab4cd88a9b0b353b764884
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003791109
+modified: 1668026217595
 created: 1667311025843
 url: "{{ _.baseURL }}/fields/owners"
 name: /fields/owners
-description: ""
+description: |-
+  ## GET /fields/owners
+  - #### Deve retornar uma lista com todas as quadras cadastradas
+  - #### Esta rota precisa de um token de autenticação
+
+  ## Resultado Esperado
+  	[
+  	{
+  		"isActive": true,
+  		"id": "13aef617-9b08-438b-aa65-69077532b788",
+  		"name": "Quadra Tupã",
+  		"createdAt": "2022-11-09T20:24:16.874Z",
+  		"updatedAt": "2022-11-09T20:24:16.874Z",
+  		"owner": {
+  			"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  			"name": "Flavim du Pneu",
+  			"createdAt": "2022-11-09T20:04:31.065Z",
+  			"updatedAt": "2022-11-09T20:18:13.651Z",
+  			"email": "laissm@live.com",
+  			"isActive": true,
+  			"password": "$2a$10$nyVq/eRXBJKC08NiFtaLGeETxkXx0qu0qeQ6ykGbmMx1L3JRSCck."
+  		}
+  	},
+  	{
+  		"isActive": true,
+  		"id": "553af9bd-3c5e-4d51-93d5-e0e7640566b7",
+  		"name": "Campo Podi",
+  		"createdAt": "2022-11-09T20:34:40.482Z",
+  		"updatedAt": "2022-11-09T20:34:40.482Z",
+  		"owner": {
+  			"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  			"name": "Flavim du Pneu",
+  			"createdAt": "2022-11-09T20:04:31.065Z",
+  			"updatedAt": "2022-11-09T20:18:13.651Z",
+  			"email": "laissm@live.com",
+  			"isActive": true,
+  			"password": "$2a$10$nyVq/eRXBJKC08NiFtaLGeETxkXx0qu0qeQ6ykGbmMx1L3JRSCck."
+  		}
+  	}
+  	]
 method: GET
 body: {}
 parameters: []

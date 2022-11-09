@@ -1,11 +1,26 @@
 _id: req_ff64a4ba750a433391663729b09c7cee
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668002698591
+modified: 1668026803434
 created: 1667311355821
 url: "{{ _.baseURL }}/owners/soft/:id"
 name: SOFT /owners/soft/:id
-description: ""
+description: >-
+  ## SOFTDELETE/
+
+  #### owners/soft/:id
+
+
+  - #### Deve ser capaz de realizar a alteração do chave isActive de true para false
+
+  - #### Deve apresentar um token de autenticação
+
+  - #### Precisa de um id válido
+
+
+  ## Resposta Esperada
+
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

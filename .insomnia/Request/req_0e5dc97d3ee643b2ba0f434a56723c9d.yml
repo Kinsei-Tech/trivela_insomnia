@@ -1,11 +1,20 @@
 _id: req_0e5dc97d3ee643b2ba0f434a56723c9d
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668003930981
+modified: 1668025430049
 created: 1667310793334
 url: "{{ _.baseURL }}/teams/delete/6ac5fa08-d34a-40f2-8895-f2d1f6e670d8"
 name: /teams/delete/:id
-description: ""
+description: |-
+  ## /DELETE
+  #### teams/delete/:id
+
+  - #### Deve ser capaz de realizar a deleção do team do banco de dados
+  - #### Deve apresentar um token de autenticação
+  - #### Precisa de um id válido
+
+  ## Resposta Esperada
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

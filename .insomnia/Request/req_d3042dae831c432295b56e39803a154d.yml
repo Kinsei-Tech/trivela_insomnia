@@ -1,11 +1,26 @@
 _id: req_d3042dae831c432295b56e39803a154d
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668003927306
+modified: 1668025418827
 created: 1667310769382
 url: "{{ _.baseURL }}/teams/deactivate/97de2f48-98e1-41e9-be40-ac59337198ad"
 name: SOFT /teams/deactivate/:id
-description: ""
+description: >-
+  ## SOFTDELETE/
+
+  #### teams/deactivate/:id
+
+
+  - #### Deve ser capaz de realizar a alteração do chave isActive de true para false
+
+  - #### Deve apresentar um token de autenticação
+
+  - #### Precisa de um id válido
+
+
+  ## Resposta Esperada
+
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

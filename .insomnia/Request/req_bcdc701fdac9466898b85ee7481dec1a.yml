@@ -1,22 +1,54 @@
 _id: req_bcdc701fdac9466898b85ee7481dec1a
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668002699222
+modified: 1668026642203
 created: 1667311314215
-url: "{{ _.baseURL }}/owners/:id"
+url: "{{ _.baseURL }}/owners/fbca4dbf-29ac-4c82-a4a5-ee026660ab5a"
 name: /owners/:id
-description: ""
+description: >-
+  ## PATCH/
+
+  #### owners/:id
+
+
+  - #### Deve realizar alteração de qualquer valor do owner com excessão do isActive e id
+
+  - #### Precisa de um id válidado
+
+  - #### Precisa apresentar um token de autenticação
+
+
+  ## Exemplo de Requisição
+  	{
+  	"name": "Flavim du Pneu"
+  	}
+
+  ## Resposta Esperada
+
+  ## ** Status 200 **
+  	{
+  	"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  	"name": "Flavim du Pneu",
+  	"createdAt": "2022-11-09T20:04:31.065Z",
+  	"updatedAt": "2022-11-09T20:18:13.651Z",
+  	"email": "laissm@live.com",
+  	"isActive": true,
+  	"password": "$2a$10$nyVq/eRXBJKC08NiFtaLGeETxkXx0qu0qeQ6ykGbmMx1L3JRSCck."
+  	}
 method: PATCH
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "Flavim du Pneu"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication:
   type: bearer
-  token: "{{ _.token }}"
+  token: "{{ _.tokenOwner }}"
 metaSortKey: -1667311210686
 isPrivate: false
 settingStoreCookies: true

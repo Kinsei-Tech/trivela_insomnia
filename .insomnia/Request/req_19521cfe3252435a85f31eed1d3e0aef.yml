@@ -1,15 +1,66 @@
 _id: req_19521cfe3252435a85f31eed1d3e0aef
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003805930
+modified: 1668026799463
 created: 1667310987823
-url: "{{ _.baseURL }}/fields/owners/:id"
+url: "{{ _.baseURL }}/fields/owners/553af9bd-3c5e-4d51-93d5-e0e7640566b7"
 name: /fields/owners/:id
-description: ""
+description: >-
+  ## PATCH/
+
+  #### /fields/owners/:id
+
+
+  - #### Deve realizar alteração de qualquer valor do field com excessão do isActive e id
+
+  - #### Só altera uma quadra do proprio owner
+
+  - #### Precisa de um id válidado
+
+  - #### Precisa apresentar um token de autenticação
+
+
+  ## Exemplo de Requisição
+  	{
+  	"name": "Campo de Bolas"
+  	}
+
+  ## Resposta Esperada
+
+  ## ** Status 200 **
+  	{
+  	"isActive": true,
+  	"name": "Campo Podi",
+  	"owner": {
+  		"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  		"name": "Flavim du Pneu",
+  		"createdAt": "2022-11-09T20:04:31.065Z",
+  		"updatedAt": "2022-11-09T20:18:13.651Z",
+  		"email": "laissm@live.com",
+  		"isActive": true,
+  		"password": "$2a$10$nyVq/eRXBJKC08NiFtaLGeETxkXx0qu0qeQ6ykGbmMx1L3JRSCck."
+  	},
+  	"address": {
+  		"id": "b2cf6a5f-9cd5-44df-876d-14618a2bd58c",
+  		"street": "Rua Uma Rua",
+  		"district": "São Pedro",
+  		"zipCode": "36037-280",
+  		"number": null,
+  		"complement": null,
+  		"city": "Juiz de Fora",
+  		"state": "MG"
+  	},
+  	"createdAt": "2022-11-09T20:34:40.482Z",
+  	"updatedAt": "2022-11-09T20:34:40.482Z",
+  	"id": "553af9bd-3c5e-4d51-93d5-e0e7640566b7"
+  	}
 method: PATCH
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name":"Quadra di Isporti"
+    }
 parameters: []
 headers:
   - name: Content-Type

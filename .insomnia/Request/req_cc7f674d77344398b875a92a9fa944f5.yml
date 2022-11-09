@@ -1,11 +1,32 @@
 _id: req_cc7f674d77344398b875a92a9fa944f5
 type: Request
 parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
-modified: 1668003455398
+modified: 1668020418770
 created: 1668003070583
 url: "{{ _.baseURL }}/adm/login"
 name: /adm/login
-description: ""
+description: >-
+  ## POST /adm/login
+
+  ### Rota de login do Administradores
+
+
+  - email - deve ser uma string, campo obrigatório
+
+  - password - deve ser uma string, campo obrigatório
+
+  - #### Deve realizar o login de um adm cadastrado
+
+  - #### Deve apresentar um login e um email válido
+
+
+  ## Retorno experado
+
+  #### **Status 200**
+
+  	{
+  		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbC5ib210ZW1wby5zbUBnbWFpbC5jb20iLCJpYXQiOjE2NjgwMTQ2NTcsImV4cCI6MTY2ODEwMTA1Nywic3ViIjoiMTc5MjRlODEtNWEwYy00Mjc0LWJkNDQtMDEzNzRlNDUxODc3In0._5ueH_dloxZvhbfOwOGK9jIeSzfgSqxN4qJQSkFs-Nc"
+  	}
 method: POST
 body:
   mimeType: application/json

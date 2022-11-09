@@ -1,9 +1,9 @@
 _id: req_3bba23a8e8544346a39ba93f83655935
 type: Request
 parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
-modified: 1667319407291
+modified: 1668024135486
 created: 1667313222752
-url: "{{ _.baseURL }}/requests/:teamId"
+url: "{{ _.baseURL }}/requests/5305cea3-caf2-461d-a22f-a3d1c1ff7dc3"
 name: /requests/:teamId
 description: 'Há três status: "pending", "accepted" e "denied". POST sempre terá
   status "pending", que poderá ser alterado no PATCH apenas pelo dono do time. '

@@ -1,11 +1,62 @@
 _id: req_cb0bdbca2d4843bea4abae1f2742c931
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003447012
+modified: 1668022363604
 created: 1668003318013
-url: "{{ _.baseURL }}/users/:id"
+url: "{{ _.baseURL }}/users/17924e81-5a0c-4274-bd44-01374e451877"
 name: /users/:id
-description: ""
+description: >+
+  ## POST
+
+  ### /users/:id
+
+
+  - #### Deve retornar o usuário pelo id
+
+  - #### Deve apresentar um token de autenticação
+
+
+  ## Resultado Esperado
+
+  ```json
+
+  {
+  	"id": "17924e81-5a0c-4274-bd44-01374e451877",
+  	"name": "Daniel Bomtempo",
+  	"email": "daniel.bomtempo.sm@gmail.com",
+  	"isActive": true,
+  	"createdAt": "2022-11-09T17:15:48.568Z",
+  	"updatedAt": "2022-11-09T17:15:48.568Z",
+  	"age": 26,
+  	"height": 165,
+  	"weight": 60,
+  	"telephone": "(32)9 9974-7830",
+  	"isExercising": true,
+  	"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
+  	"socialNetwork": null,
+  	"address": {
+  		"id": "5ad53eec-60bc-448c-941c-6f3a90df5955",
+  		"street": "Rua Pe. Frederico",
+  		"district": "Santa Catarina",
+  		"zipCode": "36035-150",
+  		"number": "48",
+  		"complement": "apart. 503",
+  		"city": "Juiz de Fora",
+  		"state": "MG"
+  	},
+  	"positions": {
+  		"id": "22b9657f-7eb6-433c-b4ae-28afa468afc0",
+  		"createdAt": "2022-11-09T17:15:47.839Z",
+  		"updatedAt": "2022-11-09T17:15:47.839Z",
+  		"target": true,
+  		"goalkeeper": false,
+  		"leftwing": true,
+  		"rightwing": true,
+  		"fixed": false
+  	},
+  	"request": []
+  }
+
 method: GET
 body: {}
 parameters: []

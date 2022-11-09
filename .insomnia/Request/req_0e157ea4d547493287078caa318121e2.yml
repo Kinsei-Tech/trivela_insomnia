@@ -1,11 +1,20 @@
 _id: req_0e157ea4d547493287078caa318121e2
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668003817647
+modified: 1668026880110
 created: 1667311102682
 url: "{{ _.baseURL }}/fields/delete/:id"
 name: /fields/delete/:id
-description: ""
+description: |-
+  ## /DELETE
+  #### /fields/owners/:id
+
+  - #### Deve ser capaz de realizar a deleção da quadra do banco de dados
+  - #### Deve apresentar um token de autenticação
+  - #### Precisa de um id válido
+
+  ## Resposta Esperada
+  ### **Status 204**
 method: DELETE
 body: {}
 parameters: []

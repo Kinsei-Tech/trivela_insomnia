@@ -1,18 +1,57 @@
 _id: req_faf1bd3b5923494082017f9cf5a718fa
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668002700551
+modified: 1668026103949
 created: 1668002662721
 url: "{{ _.baseURL }}/owners"
 name: /owners
-description: ""
+description: |-
+  ## GET /owners
+  - #### Deve retornar uma lista com todos os donos de quadra/clubes cadastrados
+  - #### Esta rota precisa de um token de autenticação
+
+  ## Resultado Esperado
+  	[
+  	{
+  		"id": "93f80169-0b78-43f1-a679-2069668b9286",
+  		"name": "Wigo",
+  		"createdAt": "2022-11-08T19:21:53.929Z",
+  		"updatedAt": "2022-11-08T19:21:53.929Z",
+  		"email": "wigo@email.com",
+  		"isActive": true
+  	},
+  	{
+  		"id": "0a8e4f85-c90e-4adc-8166-d282152a2054",
+  		"name": "Felipe",
+  		"createdAt": "2022-11-08T19:28:03.423Z",
+  		"updatedAt": "2022-11-08T19:28:03.423Z",
+  		"email": "felipe.com",
+  		"isActive": true
+  	},
+  	{
+  		"id": "fbca4dbf-29ac-4c82-a4a5-ee026660ab5a",
+  		"name": "Laís Bomtempo",
+  		"createdAt": "2022-11-09T20:04:31.065Z",
+  		"updatedAt": "2022-11-09T20:04:31.065Z",
+  		"email": "laissm@live.com",
+  		"isActive": true
+  	},
+  	{
+  		"id": "6fa87e7c-46f1-4bf7-b631-b26effac8e63",
+  		"name": "Mario Alberto",
+  		"createdAt": "2022-11-09T20:11:17.966Z",
+  		"updatedAt": "2022-11-09T20:11:17.966Z",
+  		"email": "marioalberto@live.com",
+  		"isActive": true
+  	}
+  	]
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token }}"
+  token: "{{ _.tokenOwner }}"
 metaSortKey: -1667311210711
 isPrivate: false
 settingStoreCookies: true

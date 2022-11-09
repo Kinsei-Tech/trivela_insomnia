@@ -1,11 +1,97 @@
 _id: req_9f5d06573a6c42e9aec0ed170949ef8f
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003447996
+modified: 1668024733781
 created: 1662306565491
 url: "{{ _.baseURL }}/users"
 name: /users
-description: ""
+description: >+
+  ## GET /users
+
+  - #### Deve retornar uma lista com todos os usuarios cadastrados
+
+  - #### Esta rota precisa de um token de autenticação
+
+
+  ## Resultado Esperado
+
+  ```json
+
+  [
+  	{
+  		"id": "17924e81-5a0c-4274-bd44-01374e451877",
+  		"name": "Daniel Bomtempo",
+  		"email": "daniel.bomtempo.sm@gmail.com",
+  		"isActive": true,
+  		"createdAt": "2022-11-09T17:15:48.568Z",
+  		"updatedAt": "2022-11-09T17:15:48.568Z",
+  		"age": 26,
+  		"height": 165,
+  		"weight": 60,
+  		"telephone": "(32)9 9974-7830",
+  		"isExercising": true,
+  		"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
+  		"socialNetwork": null,
+  		"address": {
+  			"id": "5ad53eec-60bc-448c-941c-6f3a90df5955",
+  			"street": "Rua Pe. Frederico",
+  			"district": "Santa Catarina",
+  			"zipCode": "36035-150",
+  			"number": "48",
+  			"complement": "apart. 503",
+  			"city": "Juiz de Fora",
+  			"state": "MG"
+  		},
+  		"positions": {
+  			"id": "22b9657f-7eb6-433c-b4ae-28afa468afc0",
+  			"createdAt": "2022-11-09T17:15:47.839Z",
+  			"updatedAt": "2022-11-09T17:15:47.839Z",
+  			"target": true,
+  			"goalkeeper": false,
+  			"leftwing": true,
+  			"rightwing": true,
+  			"fixed": false
+  		},
+  		"request": []
+  	},
+  	{
+  		"id": "4326b27e-aeff-4b31-800a-add4a8695ed4",
+  		"name": "Vini Dantras",
+  		"email": "vini.dantras@gmail.com",
+  		"isActive": true,
+  		"createdAt": "2022-11-09T17:22:58.446Z",
+  		"updatedAt": "2022-11-09T17:22:58.446Z",
+  		"age": 26,
+  		"height": 165,
+  		"weight": 60,
+  		"telephone": "(32)9 9974-7830",
+  		"isExercising": true,
+  		"urlImg": "https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg",
+  		"socialNetwork": null,
+  		"address": {
+  			"id": "5c70aca0-3844-44e2-87fa-d92f4d29ecef",
+  			"street": "Rua Pe. Frederico",
+  			"district": "Santa Catarina",
+  			"zipCode": "36035-150",
+  			"number": "48",
+  			"complement": "apart. 503",
+  			"city": "Juiz de Fora",
+  			"state": "MG"
+  		},
+  		"positions": {
+  			"id": "1fd27ffb-1369-4d80-ac8c-407d5140bc36",
+  			"createdAt": "2022-11-09T17:22:58.038Z",
+  			"updatedAt": "2022-11-09T17:22:58.038Z",
+  			"target": true,
+  			"goalkeeper": false,
+  			"leftwing": true,
+  			"rightwing": true,
+  			"fixed": false
+  		},
+  		"request": []
+  	}
+  ]
+
 method: GET
 body: {}
 parameters: []

@@ -1,19 +1,187 @@
 _id: req_283ddb452c784d0dac852d80909024c0
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668003450833
+modified: 1668024393656
 created: 1667211253239
 url: "{{ _.baseURL }}/users/create"
 name: /users/create
-description: "Coloquei todas as posições no exemplo de post para facilitar a
-  criação do doc. Caso tenha apagado: left wing, right wing, target, fixed e
-  goalkeeper. "
+description: "### POST /users/create
+
+  ### Rota para criação de um usuário
+
+
+  - name - Deve ser uma string, campo obrigatório;
+
+  - email - Deve ser uma string, campo obrigatório;
+
+  - password - Deve ser uma string, campo obrigatório;
+
+  - age - Deve ser uma number, campo obrigatório;
+
+  - height - Deve ser uma number, campo obrigatório
+
+  - weight - Deve ser uma number, campo obrigatório;
+
+  - telephone - Deve ser uma string, campo obrigatório;
+
+  - isExercising - Deve ser uma boolean, campo obrigatório;
+
+  - urlImg\" - Deve ser uma string, campo obrigatório;
+
+  - position - Deve ser um objeto contendo as chaves target, goalkeepe,
+  rleftwing, rightwing e fixedtodas com valores boolean, esses campos não são
+  obrigatórios;
+
+  - address - Deve ser um objeto contendo as chaves street, district, zipCode,
+  number, complement, city e state todas com valores são strings, com excessão
+  de number e complement todos os campos são obrigatórios;
+
+
+  ### Exemplo de requisição
+
+
+  \t{
+
+  \t\"name\": \"Daniel Bomtempo\",
+
+  \t\"email\": \"daniel.bomtempo.sm@gmail.com\",
+
+  \t\"password\": \"1234\",
+
+  \t\"age\": 26,
+
+  \t\"height\": 165,
+
+  \t\"weight\": 60,
+
+  \t\"telephone\": \"(32)9 9974-7830\",
+
+  \t\"isExercising\": true,
+
+  \t\"position\": {
+
+  \t\t\"target\": true,
+
+  \t\t\"goalkeeper\": false,
+
+  \t\t\"leftwing\": true,
+
+  \t\t\"rightwing\": true,
+
+  \t\t\"fixed\": false
+
+  \t},
+
+  \t\"urlImg\":
+  \"https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg\",
+
+  \t\"address\": {
+
+  \t\t\"street\": \"Rua Pe. Frederico\",
+
+  \t\t\"district\": \"Santa Catarina\",
+
+  \t\t\"zipCode\": \"36035-150\",
+
+  \t\t\"number\": \"48\",
+
+  \t\t\"complement\": \"apart. 503\",
+
+  \t\t\"city\": \"Juiz de Fora\",
+
+  \t\t\"state\": \"MG\"
+
+  \t}
+
+  \t}
+
+
+  ## Retorno esperado\ 
+
+  #### **Status 201 Created**
+
+
+  \t{
+
+  \t\t\"id\": \"17924e81-5a0c-4274-bd44-01374e451877\",
+
+  \t\t\"name\": \"Daniel Bomtempo\",
+
+  \t\t\"email\": \"daniel.bomtempo.sm@gmail.com\",
+
+  \t\t\"isActive\": true,
+
+  \t\t\"createdAt\": \"2022-11-09T17:15:48.568Z\",
+
+  \t\t\"updatedAt\": \"2022-11-09T17:15:48.568Z\",
+
+  \t\t\"age\": 26,
+
+  \t\t\"height\": 165,
+
+  \t\t\"weight\": 60,
+
+  \t\t\"telephone\": \"(32)9 9974-7830\",
+
+  \t\t\"isExercising\": true,
+
+  \t\t\"urlImg\":
+  \"https://i.pinimg.com/736x/1e/60/11/1e6011d677d527b624c60d9cd0240c98.jpg\",
+
+  \t\t\"socialNetwork\": null,
+
+  \t\t\"address\": {
+
+  \t\t\t\"id\": \"5ad53eec-60bc-448c-941c-6f3a90df5955\",
+
+  \t\t\t\"street\": \"Rua Pe. Frederico\",
+
+  \t\t\t\"district\": \"Santa Catarina\",
+
+  \t\t\t\"zipCode\": \"36035-150\",
+
+  \t\t\t\"number\": \"48\",
+
+  \t\t\t\"complement\": \"apart. 503\",
+
+  \t\t\t\"city\": \"Juiz de Fora\",
+
+  \t\t\t\"state\": \"MG\"
+
+  \t\t},
+
+  \t\t\"positions\": {
+
+  \t\t\t\"id\": \"22b9657f-7eb6-433c-b4ae-28afa468afc0\",
+
+  \t\t\t\"createdAt\": \"2022-11-09T17:15:47.839Z\",
+
+  \t\t\t\"updatedAt\": \"2022-11-09T17:15:47.839Z\",
+
+  \t\t\t\"target\": true,
+
+  \t\t\t\"goalkeeper\": false,
+
+  \t\t\t\"leftwing\": true,
+
+  \t\t\t\"rightwing\": true,
+
+  \t\t\t\"fixed\": false
+
+  \t\t},
+
+  \t\t\"request\": []
+
+  \t}
+
+
+  \t"
 method: POST
 body:
   mimeType: application/json
   text: >-
     {
-    	"name": "Daniel Bomtempo",
+    	"name": " Bomtempo",
     	"email": "daniel.bomtempo.sm@gmail.com",
     	"password": "1234",
     	"age": 26,
