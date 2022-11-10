@@ -1,9 +1,9 @@
 _id: req_cb0bdbca2d4843bea4abae1f2742c931
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668022363604
+modified: 1668088040597
 created: 1668003318013
-url: "{{ _.baseURL }}/users/17924e81-5a0c-4274-bd44-01374e451877"
+url: "{{ _.baseURL }}/users/{{ _.userId }}"
 name: /users/:id
 description: >+
   ## POST

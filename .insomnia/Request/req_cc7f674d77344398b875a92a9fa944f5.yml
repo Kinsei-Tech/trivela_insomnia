@@ -1,10 +1,10 @@
 _id: req_cc7f674d77344398b875a92a9fa944f5
 type: Request
 parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
-modified: 1668020418770
+modified: 1668087987194
 created: 1668003070583
-url: "{{ _.baseURL }}/adm/login"
-name: /adm/login
+url: "{{ _.baseURL }}/admin/login"
+name: /admin/login
 description: >-
   ## POST /adm/login
 
@@ -32,7 +32,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "laisBomtempo@email.com",
+    	"email": "wigo@email.com",
     	"password": "1234"
     }
 parameters: []

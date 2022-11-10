@@ -1,7 +1,7 @@
 _id: req_9343a34a9f4b4c59be2c1c004df6a5b7
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668023696646
+modified: 1668091107199
 created: 1661859466834
 url: "{{ _.baseURL }}/teams/create"
 name: /teams/create
@@ -220,7 +220,7 @@ body:
   mimeType: application/json
   text: >-2
      {
-          "name": "Os Bolas Murchas",
+          "name": "Time Kenzie",
     	 	  "description": "Busco pessoas para completar meu time de futsal aos sábados depois das 17h ",
           "state": "Minas Gerais-MG",
           "city": "Juiz de Fora",

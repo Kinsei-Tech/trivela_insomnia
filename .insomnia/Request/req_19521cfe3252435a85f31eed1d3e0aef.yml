@@ -1,9 +1,9 @@
 _id: req_19521cfe3252435a85f31eed1d3e0aef
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668026799463
+modified: 1668089231060
 created: 1667310987823
-url: "{{ _.baseURL }}/fields/owners/553af9bd-3c5e-4d51-93d5-e0e7640566b7"
+url: "{{ _.baseURL }}/fields/owners/{{ _.fieldId }}"
 name: /fields/owners/:id
 description: >-
   ## PATCH/

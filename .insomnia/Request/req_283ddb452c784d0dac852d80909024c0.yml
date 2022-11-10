@@ -1,7 +1,7 @@
 _id: req_283ddb452c784d0dac852d80909024c0
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668024393656
+modified: 1668100589218
 created: 1667211253239
 url: "{{ _.baseURL }}/users/create"
 name: /users/create
@@ -181,15 +181,15 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"name": " Bomtempo",
-    	"email": "daniel.bomtempo.sm@gmail.com",
+    	"name": "Maykel",
+    	"email": "maykel@gmail.com",
     	"password": "1234",
     	"age": 26,
     	"height": 165,
     	"weight": 60,
     	"telephone": "(32)9 9974-7830",
     	"isExercising": true,
-    	"position": {
+    	"positions": {
     		"target": true,
     		"goalkeeper": false,
     		"leftwing": true,

@@ -1,9 +1,9 @@
 _id: req_698e05de3a304dc99052c3b33a5b0f67
 type: Request
 parentId: fld_300df0767bfc43a4935491a522579844
-modified: 1668004132097
+modified: 1668089899045
 created: 1667311804692
-url: "{{ _.baseURL }}/admin/fields/deactivate/:id"
+url: "{{ _.baseURL }}/admin/fields/deactivate/{{ _.fieldId }}"
 name: SOFT /admin/fields/deactivate/:id
 description: ""
 method: DELETE

@@ -1,9 +1,9 @@
 _id: req_4de9646b764e4aa5a934c255d2b6fefe
 type: Request
 parentId: fld_ce94806760604e22a73085511ab79dcb
-modified: 1668004045269
+modified: 1668089749511
 created: 1667311984536
-url: "{{ _.baseURL }}/admin/users/deactivate/:id"
+url: "{{ _.baseURL }}/admin/users/deactivate/{{ _.userId }}"
 name: SOFT admin/users/deactivate/:id
 description: ""
 method: DELETE

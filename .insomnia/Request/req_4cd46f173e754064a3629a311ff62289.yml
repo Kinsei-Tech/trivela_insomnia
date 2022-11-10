@@ -1,9 +1,9 @@
 _id: req_4cd46f173e754064a3629a311ff62289
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668022431568
+modified: 1668088365141
 created: 1667900974295
-url: "{{ _.baseURL }}/teams/5305cea3-caf2-461d-a22f-a3d1c1ff7dc3"
+url: "{{ _.baseURL }}/teams/{{ _.teamId }}"
 name: /teams/:id
 description: >+
   ## POST

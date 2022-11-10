@@ -1,9 +1,9 @@
 _id: req_39d1ccadfbd04f24873e150f4beba2cd
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668023277894
+modified: 1668091261657
 created: 1667310724728
-url: "{{ _.baseURL }}/teams/update/5305cea3-caf2-461d-a22f-a3d1c1ff7dc3"
+url: "{{ _.baseURL }}/teams/update/{{ _.teamId }}"
 name: /teams/update/:id
 description: >-
   ## PATCH/
@@ -99,7 +99,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"city": "Rio Pomba"
+    	"positions": {
+    		"goleiro": true
+    	},
+    	"blabla": "gggg"
     }
 parameters: []
 headers:

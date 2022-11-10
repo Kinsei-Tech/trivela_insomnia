@@ -1,9 +1,9 @@
 _id: req_0c9cb497f5184beca5ef61ee58a3ac3f
 type: Request
 parentId: fld_9922aea66080438d90237a05070317b3
-modified: 1668024943688
+modified: 1668100586686
 created: 1661899827581
-url: "{{ _.baseURL }}/users/update/17924e81-5a0c-4274-bd44-01374e451877"
+url: "{{ _.baseURL }}/users/update/{{ _.userId }}"
 name: /users/update/:id
 description: >-
   ## PATCH/
@@ -83,16 +83,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Arlindo Dantras",
-    	"address": {
-    	"city": "Vitória"
-    },
-    	"positions": {
-    		"fixed": false
-    	},
-    	"socialNetwork": {
-    		"facebook": "facebook@umlinkai.com"
-    	}
+     "positions": {
+    	 "goleiro": true
+     }
     }
 parameters: []
 headers:

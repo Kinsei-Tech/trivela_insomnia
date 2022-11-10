@@ -1,9 +1,9 @@
 _id: req_91b455d78e4c43deb0efec6ca786d1eb
 type: Request
 parentId: fld_a6c11c7777de4fe68541187e91c23e17
-modified: 1668003671872
+modified: 1668089444450
 created: 1668002494734
-url: "{{ _.baseURL }}/deactivate/:id"
+url: "{{ _.baseURL }}/participants/deactivate/{{ _.teamId }}/{{ _.userId }}"
 name: /participants/deactivate/:id/:userId
 description: id = id do time!
 method: DELETE

@@ -1,9 +1,9 @@
 _id: req_8c24b07127574c859226f997ec4d781d
 type: Request
 parentId: fld_a6c11c7777de4fe68541187e91c23e17
-modified: 1668003658593
+modified: 1668089354779
 created: 1667898176070
-url: "{{ _.baseURL }}/participants/team/7dd7c124-f3bf-43bf-91e8-af590da73c34"
+url: "{{ _.baseURL }}/participants/team/{{ _.teamId }}"
 name: /participants/team/:id
 description: id = id do time!
 method: GET

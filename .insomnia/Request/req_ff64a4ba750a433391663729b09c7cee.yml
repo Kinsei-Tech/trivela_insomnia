@@ -1,9 +1,9 @@
 _id: req_ff64a4ba750a433391663729b09c7cee
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668026803434
+modified: 1668089090499
 created: 1667311355821
-url: "{{ _.baseURL }}/owners/soft/:id"
+url: "{{ _.baseURL }}/owners/soft/{{ _.ownerId }}"
 name: SOFT /owners/soft/:id
 description: >-
   ## SOFTDELETE/

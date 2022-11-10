@@ -1,9 +1,9 @@
 _id: req_ad470308637f418dac715c21973deda6
 type: Request
 parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
-modified: 1668018374483
+modified: 1668091382971
 created: 1667314684401
-url: "{{ _.baseURL }}/requests/:id"
+url: "{{ _.baseURL }}/requests/response/{{ _.requestId }}"
 name: /requests/:id
 description: ""
 method: PATCH
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"status": "accepted"
+    	"status": 3,
+    	"position": 1
     }
 parameters: []
 headers:
@@ -19,6 +20,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1667313188145
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_58876bf09b50444c8c95e59b195cb7f5
 type: Request
 parentId: fld_a6c11c7777de4fe68541187e91c23e17
-modified: 1668026911571
+modified: 1668089332472
 created: 1667897689429
 url: "{{ _.baseURL }}/participants/create"
 name: /participants/create
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"teamId" : "7dd7c124-f3bf-43bf-91e8-af590da73c34",
-    	"userId": "e493cd77-e2ed-4a84-b780-7bfbd4278b54",
+    	"teamId" : "{{ _.teamId }}",
+    	"userId": "{{ _.userId }}",
     	"position": 3
     }
 parameters: []

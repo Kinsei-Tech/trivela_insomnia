@@ -1,9 +1,9 @@
 _id: req_817a931f91ff4bc1af85241fa688db02
 type: Request
 parentId: fld_ce94806760604e22a73085511ab79dcb
-modified: 1668004044368
+modified: 1668089764024
 created: 1667312032069
-url: "{{ _.baseURL }}/admin/users/delete/:id"
+url: "{{ _.baseURL }}/admin/users/delete/{{ _.userId }}"
 name: admin/users/delete/:id
 description: ""
 method: DELETE

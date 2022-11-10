@@ -1,7 +1,7 @@
 _id: req_53e64225985543a48efee839a7945e9b
 type: Request
 parentId: fld_fd87c8fafff84870b12acab150399029
-modified: 1668026759355
+modified: 1668089158710
 created: 1667310911712
 url: "{{ _.baseURL }}/fields"
 name: /fields
@@ -64,7 +64,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Campo Podi",
+    	"name": "Campo Pobi",
     	"address": {
     		"street": "Rua Uma Rua",
     		"district": "São Pedro",

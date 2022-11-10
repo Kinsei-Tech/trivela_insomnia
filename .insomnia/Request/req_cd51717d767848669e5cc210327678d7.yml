@@ -1,16 +1,18 @@
 _id: req_cd51717d767848669e5cc210327678d7
 type: Request
 parentId: fld_1d12c4d37b9140a1b7c57c42cf0f4b81
-modified: 1667314960079
+modified: 1668088891776
 created: 1667313323398
-url: "{{ _.baseURL }}/requests/:id"
+url: "{{ _.baseURL }}/requests/{{ _.requestId }}"
 name: /requests/:teamId
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.tokenUser }}"
 metaSortKey: -1667313188120
 isPrivate: false
 settingStoreCookies: true

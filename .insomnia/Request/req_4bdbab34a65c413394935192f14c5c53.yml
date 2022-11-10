@@ -1,7 +1,7 @@
 _id: req_4bdbab34a65c413394935192f14c5c53
 type: Request
 parentId: fld_a776b9d22c814f05bb4435e9dd956f0b
-modified: 1668024318017
+modified: 1668089067286
 created: 1668002354679
 url: "{{ _.baseURL }}/owners/login"
 name: /owners/login
@@ -32,7 +32,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "laissm@live.com",
+    	"email": "robot@live.com",
     	"password": "1234"
     }
 parameters: []

@@ -1,9 +1,9 @@
 _id: req_d8782715683b40feac8181d09498ea7f
 type: Request
 parentId: fld_a6c11c7777de4fe68541187e91c23e17
-modified: 1668026908531
+modified: 1668089380903
 created: 1667898654311
-url: "{{ _.baseURL }}/participants/update/:id/:userId"
+url: "{{ _.baseURL }}/participants/update/{{ _.teamId }}/{{ _.userId }}"
 name: /participants/update/:id/:userId
 description: id = id do time!
 method: PATCH

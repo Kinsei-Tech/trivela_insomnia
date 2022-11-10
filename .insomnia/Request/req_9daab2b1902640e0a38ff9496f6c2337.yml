@@ -1,7 +1,7 @@
 _id: req_9daab2b1902640e0a38ff9496f6c2337
 type: Request
 parentId: fld_d5bad0767d7144889c48eb1c50169eba
-modified: 1668025580996
+modified: 1668091398820
 created: 1667311210736
 url: "{{ _.baseURL }}/owners"
 name: /owners
@@ -37,8 +37,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Mario Alberto",
-    	"email": "marioalberto@live.com",
+    	"name": "Roberto",
+    	"email": "robot@live.com",
     	"password": "1234"
     }
 parameters: []

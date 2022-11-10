@@ -1,9 +1,9 @@
 _id: req_0e5dc97d3ee643b2ba0f434a56723c9d
 type: Request
 parentId: fld_41f34828e04848d781d6274aba0616cc
-modified: 1668025430049
+modified: 1668088415586
 created: 1667310793334
-url: "{{ _.baseURL }}/teams/delete/6ac5fa08-d34a-40f2-8895-f2d1f6e670d8"
+url: "{{ _.baseURL }}/teams/delete/{{ _.teamId }}"
 name: /teams/delete/:id
 description: |-
   ## /DELETE
